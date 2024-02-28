@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>51.com登录_51游戏社区，真人配对玩游戏！</title>
+<meta name="keywords" content="51.com,个人空间,轻博客,SNS社交网络,51游戏社区,真人交友" />
+<meta name="description" content="51.com，最真实的sns社交网络，提供个人博客,个人空间,时尚轻博客等。上51真人配对玩游戏，看美女视频,美女图片,找个性签名,个性网名,交男女朋友尽在51游戏社区！" />
+<link rel="stylesheet" type="text/css" charset="gbk" href="http://pic.51img1.com/v5/global/public/css/global.css?v=20130320" />
+<link rel="stylesheet" type="text/css" charset="gbk" href="http://pic.51img1.com/v5/global/public/css/layer.css?v=20140109" />
+<link rel="stylesheet" type="text/css" charset="gbk" href="http://pic.51img1.com/v5/passport/css/quick_login_new.css" />
+<script src="http://static.51img1.com/i/js/jquery.js?v=20140317"></script>
+<script src="http://static.51img1.com/v5/passport/js/login.js?v=20140317"></script>
+<script src="http://static.51img1.com/v5/global/public/js/foui.js?v=201304181720"></script>
+<script src="http://static.51img1.com/v5/global/public/js/foui_dialog.js?v=20130320"></script>
+<script type="text/javascript">
+document.domain = '51.com';
+var passport_gourl = "http%3A%2F%2Fwp.51.com";
+</script>
+</head>
+<body style="padding-top:50px;">
+<div class="header">
+	<h1 class="headerLogo"><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'logon按钮点击\'&name2=\'new登陆\'');" href="http://www.51.com/"><span>51游戏社区</span></a></h1>
+	<p class="headerNav">
+		<a href="http://game.51.com/" onclick="$.get('/stat/regcommonTJ?type=1&name=\'玩游戏链接点击\'&name2=\'new登陆\'');" target="_blank">玩游戏</a><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'积分商城链接点击\'&name2=\'new登陆\'');" href="http://jifen.51.com/" target="_blank">积分商城</a><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'视频交友链接点击\'&name2=\'new登陆\'');" href="http://v.51.com/" target="_blank">视频交友</a><a href="http://jiaoyou.51.com/online" onclick="$.get('/stat/regcommonTJ?type=1&name=\'附近的人链接点击\'&name2=\'new登陆\'');" target="_blank">附近的人</a>
+	</p>
+</div>
+<div class="main" style="background:#000 url('http://b6.images22.51img1.com/6000/tracyyou08/63c67ab14526232b8be2193f22292783.jpg') repeat-x center top;">
+<!--background:#000 http://pic.51.com/v5/passport/images/theme/pic_1.jpg no-repeat-->
+	<div class="main_inner" style="background:#000 url('http://static.51img1.com/v5/passport/images/qisha_cnt.jpg') no-repeat center top;">
+	<!--http://pic.51.com/v5/passport/images/theme/pic_1_cnt.jpg-->
+		<div class="theme">
+			<a style="position:absolute;width:580px;height:440px;left:0px;top:0px;cursor:pointer;" hidefocus="true" onclick="$.get('/stat/regcommonTJ?type=1&name=\'游戏背景图点击点击\'&name2=\'new登陆\'');" href="http://game.51.com/qs" target="_blank"></a>
+		</div>
+
+				<div class="block_login">
+					<form name="passport_51_form" method="POST" action="/login.5p?chn=p5p" >
+					<input id="gourl" name="gourl" value="http%3A%2F%2Fwp.51.com" type="hidden" />
+					<input type="hidden" id="errorurl" name="errorurl" value="" />
+					<input type="hidden" id="passport_cookie_login" name="passport_cookie_login" value="0" />
+					<input type="hidden" id="from" name="from" value="" />
+					<div class="con">
+						<h2>登录51游戏社区</h2>
+												<p class="error_tip" id="code_login_p" style="display:none;"></p>
+												<div class="form_login ">
+							<ul class="clear">
+							<li class="l1">
+								<p class="right">
+									<span class="login_input login_input_ed"><input onfocus="input_focus(this);" id="passport_51_user" name="passport_51_user" type="text" value="" class="t"  tabindex="1" onblur="passport_51_check_username();input_blur(this);" onfocus="input_focus(this);"/>
+									<label onclick="label_focus(this);" >帐号/邮箱/手机号/彩虹号</label>
+									</span>
+									
+									</p>
+							</li>
+							<li class="l2">
+								<p class="right">
+									<span class="login_input login_input_ed"><input onfocus="input_focus(this);" id="passport_51_password" name="passport_51_password" type="password" class="t" tabindex="2" onblur="input_blur(this);" />
+									<label onclick="label_focus(this);">密码</label>
+									</span>
+									
+								</p>
+							</li>
+														<li class="l3">
+								<div class="right">
+									<span class="dire_login">
+									<input name="passport_auto_login" type="checkbox" id="passport_auto_login" value="1" tabindex="3" /><label for="passport_auto_login">下次自动登录</label>
+									</span>
+									<span class="hidden_login">
+										<input id="passport_51_ishidden" name="passport_51_ishidden" value="1" tabindex="4" type="checkbox"><label for="passport_51_ishidden">隐身</label>
+									</span>
+									<span class="forget"><a href="http://passport.51.com/findpass/find.php?chn=p5p" target="_blank" onclick="$.get('/stat/regcommonTJ?type=1&name=\'忘记密码按钮点击\'&name2=\'new登陆\'');">忘记密码？</a></span>
+								</div>
+							</li>
+							
+							<li class="l4">
+								<p class="right"><a class="btn_login" id="btn_login" href="#" onclick="passport_dologin();$.get('/stat/regcommonTJ?type=1&name=\'登陆按钮点击\'&name2=\'new登陆\'');return false;" tabindex="5" >登 录</a><a href="/reg/?chn=p5p&gourl=http%3A%2F%2Fwp.51.com" onclick="$.get('/stat/regcommonTJ?type=1&name=\'注 册按钮点击\'&name2=\'new登陆\'');" class="btn_reg">注 册</a></p>
+							</li>
+							</ul>
+							<div class="login_other">
+								<div class="legend"><h6>使用合作网站帐号登录</h6></div>
+								<ul>
+									<li><a onclick="qq_login('quickqq2');$.get('/stat/regcommonTJ?type=1&name=\'qq账号登录点击按钮点击\'&name2=\'new登陆\'');" href="javascript:;"><em class="ico_qq"></em>用QQ帐号登录</a></li>
+									<li><a onclick="sina_login('quicksina');$.get('/stat/regcommonTJ?type=1&name=\'新浪微博账号登录点击按钮点击\'&name2=\'new登陆\'');" href="javascript:;"><em class="ico_sina"></em>用新浪微博登录</a></li>
+									<li><a onclick="ttff_login('login');$.get('/stat/regcommonTJ?type=1&name=\'2345账号登录点击按钮点击\'&name2=\'new登陆\'');" href="javascript:;"><em class="ico_2345"></em>用2345帐号登录</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					</form>
+					
+				</div>
+				<a class="bg_l" onclick="$.get('/stat/regcommonTJ?type=1&name=\'游戏背景图点击点击\'&name2=\'new登陆\'');" href="http://game.51.com/qs" target="_blank" style="background-image:url('http://b4.images22.51img1.com/6000/tracyyou08/4738908ffd9393cbac8ef83e58217c51.jpg');width:381px;"></a>
+				<a class="bg_r" onclick="$.get('/stat/regcommonTJ?type=1&name=\'游戏背景图点击点击\'&name2=\'new登陆\'');" href="http://game.51.com/qs" target="_blank" style="background-image:url('http://b3.images22.51img1.com/6000/tracyyou08/3269d2378592f2df8ddaa7cbd2913e75.jpg');width:381px;"></a>
+				<!--<div class="bg_l" style="background-image:url('http://b4.images22.51img1.com/6000/tracyyou08/4738908ffd9393cbac8ef83e58217c51.jpg');width:381px;"></div>
+				<div class="bg_r" style="background-image:url('http://b3.images22.51img1.com/6000/tracyyou08/3269d2378592f2df8ddaa7cbd2913e75.jpg');width:381px;"></div>-->
+	</div>
+</div>
+<div class="seo_commend">
+	<div class="box">
+		<ul class="clear">
+												<li><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'推荐游戏点击\'&name2=\'new登陆\'');" target="_blank" href="http://game.51.com/ly/"><img width="140" src="http://cdn.51img3.com/game/upload_data/201307/2013070420521351d56ffd2723b.jpg"></a></li>
+							
+												<li><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'推荐游戏点击\'&name2=\'new登陆\'');" target="_blank" href="http://game.51.com/wy/"><img width="140" src="http://cdn.51img3.com/game/upload_data/201402/2014021217105552fb3a9f306b2_1755.jpg"></a></li>
+							
+												<li><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'推荐游戏点击\'&name2=\'new登陆\'');" target="_blank" href="http://game.51.com/dntg/"><img width="140" src="http://cdn.51img3.com/game/upload_data/201310/2013101013473352563f7573cda.jpg"></a></li>
+							
+												<li><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'推荐游戏点击\'&name2=\'new登陆\'');" target="_blank" href="http://game.51.com/qs/"><img width="140" src="http://cdn.51img3.com/game/upload_data/201402/2014021217133652fb3b40480c1_1755.jpg"></a></li>
+							
+												<li><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'推荐游戏点击\'&name2=\'new登陆\'');" target="_blank" href="http://game.51.com/nslm/"><img width="140" src="http://cdn.51img3.com/game/upload_data/201403/201403051008155316870f69821_1755.jpg"></a></li>
+							
+												<li><a onclick="$.get('/stat/regcommonTJ?type=1&name=\'推荐游戏点击\'&name2=\'new登陆\'');" target="_blank" href="http://game.51.com/jhwj/"><img width="140" src="http://cdn.51img3.com/game/upload_data/201401/2014010620040952ca9bb938eb9_1755.png"></a></li>
+							
+					</ul>
+	</div>
+</div>
+<div class="footer" style="background:#fff;">
+	<div class="bottom clear">
+			<div class="l">&copy;2005-2014 51.com<br />上海我要网络发展有限公司　　沪ICP备09060246号</div>
+			<div class="r r_special">
+				<a rel="nofollow" href="http://www.51.com/copyright1.html" target="_blank" style="width:50px;">更多</a>
+				<a rel="nofollow" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20110421105615462" target="_blank" style="width:60px;">上海工商</a>
+				<a rel="nofollow" href="http://sh.cyberpolice.cn/infoCategoryListAction.do?act=initjpg" target="_blank" onclick="pub_footview_dtj('footer-netpolice');">上海市网络警察</a>
+				<a rel="nofollow" href="javascript:void(0)" onclick="return false;" style="cursor:default;">上海市互联网违法信息举报中心</a>
+				<a rel="nofollow" style="width:120px;" href="http://www.51.com/native_2.html" target="_blank" onclick="pub_footview_dtj('footer-icp');">ICP证</a>
+			</div>
+	    </div>
+		<script>
+function pub_footview_dtj(type)
+{
+	$.getJSON("http://www.51.com/up/url/?charset=utf8&type="+encodeURIComponent(type)+"&callback=?",{},function(){});
+}
+</script></div>
+
+<script language="javascript" type="text/javascript">
+init_passport_5p();
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-16129551-1']
