@@ -1,0 +1,118 @@
+
+
+<title>hrxxw.com</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="hrxxw.com">
+<meta name="description" content="hrxxw.com">
+<style type="text/css">
+body {margin:10 auto;}
+.header4 {background:#e7e7e7; color:#333; padding:5px;width:880px;}
+.header4 h1 {font-size:60px}
+.remark4 {font-size:12px;}
+.banner4 {padding:0px;border:0px;width:880px;height:18px;background-color:#ffffff;position:relative;overflow:hidden;float:none;}
+.banner4 ul, .banner4 li {list-style: none;}
+.banner4 li {
+    float: left; width:146px; height: 18px; padding:1px 0;font-size: 14px;line-height: 18px; position: relative;
+}
+.banner4 a {font-size:14px;font-family:arial,宋体;text-align:left;color:#0F0CBF;text-decoration:none;} 
+.banner4 a:hover {color:#EE0000;} 
+</style>
+<link rel="stylesheet" href="./css/20130207.css">
+<script type="text/javascript" src="client.js" charset="UTF-8"></script>
+<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/domain_parking.js"></script>
+<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/ci.js"></script>
+<script type="text/javascript">
+			window.cpro_dp_height = 510;
+</script>
+<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/dp.js"></script>
+
+
+<script type="text/javascript">
+var DuoMaiSiteID = 104637;
+document.write(unescape("%3Cscript src='http://www.duomai.com/djl/ads.js' type='text/javascript'%3E%3C/script%3E"));
+document.write(unescape("%3Cscript src='http://www.duomai.com/djl/index.php?site_id=" + DuoMaiSiteID + ".js' type='text/javascript'%3E%3C/script%3E"));
+document.write(unescape("%3Cscript src='http://www.duomai.com/djl/duojinlian.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+    var _djl_ = DuoJinLian._init_();
+    _djl_.hulue('');
+    _djl_.fankuibiaoqian('hrxxw.com');
+         _djl_.zhizuo('');
+    _djl_.run();
+}
+catch(e)
+{}
+</script>
+        <div class="content container col16">
+            <div class="header4">
+                <h1>hrxxw.com</h1>
+                <div class="remark4">该域名可能出售中，请 <a href="http://www.4.cn/search/detail/pid/3241912/ref/295556"><b>点击这里</b></a> 提供您的报价。</div>
+            </div>
+            <div class="main-content container col16" style="float:left;">
+                <div class="linkunit-content container icol">
+                    <ul class="banner4">
+                        <li><a href="http://www.dangdang.com" target="_blank" title="当当网">当当网</a></li>
+                        <li><a href="http://www.jd.com" target="_blank" title="京东商城">京东商城</a></li>
+                        <li><a href="http://www.yhd.com" target="_blank" title="1号店">1号店</a></li>
+                        <li><a href="http://www.suning.com" target="_blank" title="苏宁易购">苏宁易购</a></li>
+                        <li><a href="http://www.amazon.cn" target="_blank" title="亚马逊">亚马逊</a></li>
+                        <li><a href="http://www.jumei.com" target="_blank" title="聚美优品">聚美优品</a></li>
+                    </ul>
+                    <ul class="banner4">
+                        <li><a href="http://www.vip.com" target="_blank" title="唯品会">唯品会</a></li>
+                        <li><a href="http://t.dianping.com" target="_blank" title="大众点评">大众点评</a></li>
+                        <li><a href="http://www.meituan.com" target="_blank" title="美团网">美团网</a></li>
+                        <li><a href="http://www.ctrip.com" target="_blank" title="携程旅游">携程旅游</a></li>
+                        <li><a href="http://www.lefeng.com" target="_blank" title="乐峰网">乐峰网</a></li>
+                        <li><a href="http://www.gome.com.cn" target="_blank" title="国美在线">国美在线</a></li>
+                    </ul>       
+                </div><!-- 主题连接 -->
+                
+                <div class="linkunit-content container icol">
+                  <h2>您可能感兴趣</h2>
+                        <div id="cpro_u109200302">
+                            <script type="text/javascript">
+                                var tempData = {
+                                    n: dpClient,
+                                    tn: "baiduTlinkInlay",
+                                    tu: slotConfig["luList"],
+                                    rsi1: 160,
+                                    rsi0: 880,
+                                    rad: 1,
+                                    rss0: "",
+                                    rss1: "",
+                                    rss2: "",
+                                    rss6: "e10900",
+                                    rsi5: 1,
+                                    at: "text",
+                                    cad: 1,
+                                    aurl: "",
+                                    rss7: "ffffff",
+                                    titSU: 0,
+                                    titFF: encodeURIComponent("arial","宋体"),
+                                    conSL: 0,
+                                    bdh: 1,
+                                    titFS: 14,
+                                    adn: 32,
+                                    conBW: 0,
+                                    hn: 5,
+                                    wn: 7,
+                                    ie: 0
+                                };
+                                custInlayRender(tempData);
+                                tempData = null;
+                            </script>
+                        </div>
+                    </div>
+                <p>
+                    <!-- 图文 -->
+                </p>
+                
+                <div class="tuwen-content container icol">
+                <h2>热门推荐 </h2>
+                    <div id="cpro_u109200303" class=""></div>
+                    
+                    <script type="text/javascript">
+                        var tempData = {
+                   
