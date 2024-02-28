@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=gb2312" />
+<title>网易电子邮箱</title>
+<link href="http://mimg.126.net/p/jy3style/lib/1007081928/jscss/globle.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+<!--
+	try{
+		if(top.aSkinInfo){
+			document.write('<link href="'+ top.aSkinInfo[0] +'" rel="stylesheet" type="text/css" id="lnkSkin">');
+		}else{
+			document.write('<link href="http://mimg.126.net/p/jy3style/lib/1007081928/cmcss/skin_blue.css" rel="stylesheet" type="text/css" id="lnkSkin">');
+		}
+	}catch(exp){
+		document.write('<link href="http://mimg.126.net/p/jy3style/lib/1007081928/cmcss/skin_blue.css" rel="stylesheet" type="text/css" id="lnkSkin">');
+	}
+//-->
+</script>
+<script language="javascript">
+	var sCode = "FA_INVALID_SESSION";
+	var sMsg = "unknown_error";
+	var bSysErr = false;
+</script>
+
+    
+
+
+<script language="javascript">
+<!--
+	function dealWithResult() {
+		var kefu = "";
+		var help = "";
+		sHome = 'http://mail.163.com/';
+		var domain = "163.com";
+		if(document.domain.indexOf("188.com") > -1){
+			sHome = 'http://www.188.com';
+			domain = "188.com";
+		}
+		if(document.domain.indexOf("126.com") > -1){
+			sHome = 'http://www.126.com';
+			domain = "126.com";
+		}
+		if(document.domain.indexOf("yeah.net") > -1){
+			sHome = 'http://www.yeah.net';
+			domain = "yeah.net";
+		}
+		if(document.domain.indexOf("vip.163.com") > -1){
+			sHome = 'http://vip.163.com/';
+			domain = "vip.163.com";
+		}
+		if(!/(163.com|126.com|yeah.net|188.com)/.test(location.hostname)){
+			sHome = 'http://'+ location.hostname +'/';
+			domain = location.hostname;
+		}
+		if(location.hostname == "app.mail.qiye.163.com"){
+			sHome = 'http://qiye.163.com/';
+			domain = location.hostname;
+		}
+		if(domain == "163.com"){
+			kefu = "kf163@188.com";
+		}else if(domain == "126.com"){
+			kefu = "kf126@188.com";
+		}else if(domain == "188.com"){
+			kefu = "kf188@188.com";
+		}
+		var urls = {
+			"." : "http://help.163.com/special/00752CLD/163mail_yxdl.html?b08bmb1",
+			"126.com" : "http://help.163.com/special/007525FQ/126mail.html?b09bmb1",
+			"yeah.net" : "http://help.163.com/special/00752DP1/yeahmail_yxdl.html?b12bmb1",
+			"188.com" : "http://help.163.com/special/00752E4C/188mail_yxdl.html?b11bmb1"
+		};
+		var help = "";
+		for(var host in urls){
+			if(new RegExp(host).test(location.hostname)){
+				help = urls[host];
+			}
+		}
+
+		var sTitle = "";
+		var sContent = "";
+        if ("FA_NEED_VERIFY_CODE" == sCode ||
+            "FA_INVALID_VERIFY_CODE" == sCode) {
+			document.getElementById("divVerify").style.display = "";
+            refreshValidCodeImg();
+            /*var span = document.getElementById("spanValidCode");
+            if (span) {
+                span.style.display = "";
+            }*/
+            var frm = document.getElementById("frmValidCode");
+            if (frm) {
+                frm.action = frm.action + "?sid=" + resultInfo.sid;
+            }
+        }else if(sCode == "FA_USER_SUSPENDED" || sCode == "FA_USER_MAINTAINING" || sCode == "FA_UNAUTHORIZED" || sCode == "FS_UNKNOWN" || sCode == "FA_SECURITY" || sCode == "FA_INVALID_SESSION" || sCode == ""){
+				if(sCode != "FS_UNKNOWN"){
+					bSysErr = true;
+				}
+				if(sCode == "FA_UNAUTHORIZED"){
+					sTitle = '您的请求失效，请重新登录邮箱。';
+				}else if(sCode == "FA_INVALID_SESSION"){
+					sTitle = '会话已过期, 请重新登录。';
+				}else if(sCode == "FA_USER_MAINTAINING"){
+					sTitle = '用户状态不正确。';
+				}else if(sCode == "Warn_User_Need_Active"){
+					sTitle = '用户被冻结。';
+				}else if(sCode == "FS_UNKNOWN"){
+					sTitle = '未知错误';
+				}else if(sCode == "FA_SECURITY"){
+					sTitle = '操作超时，请<a href="'+ sHome +'" target="_top">重新登录</a>。';
+					sContent = '<p class="txt_others">为什么需要重新登录？<br />' +
+						'由于您长时间未操作邮箱，或者网络出现问题，为保证邮件安全，自动退出系统，请您重新登录。</p>';
+				}else if(sCode == "Login_UserNotExists "){
+					if(domain == "163.com"){
+						sTitle = "用户名不存在。";
+						sContent = '如需申请新邮箱，访问：<a href="http://reg.163.com/Service.shtml" target="_blank">注册邮箱</a>； <br>如已注册网易通行证，激活邮箱访问：http://mscan1.163.com/QuickCreateMail.jsp</a>';
+					}else if(domain == "126.com"){
+						sTitle = "用户名不存在。";
+						sContent = '如需申请新邮箱，访问：<a href="http://reg.126.com/reg1.jsp" target="_blank">注册邮箱</a>；'; 
+					}else if(domain == "188.com"){
+						sTitle = "用户名不存在。";
+						sContent = '如需申请新邮箱，访问：<a href="http://reg.mail.188.com" target="_blank">注册邮箱</a>'; 
+					}
+				}else if(sCode == "FA_USER_SUSPENDED" ){
+					sTitle = "用户帐号处于禁用状态";
+					sContent = '请按以下流程操作：' +
+						'	<ol>' +
+						'		<li>您是否触犯了邮件服务条款？</li>' +
+						'			<ol>' +
+						'				<li>发送大量未经许可的邮件。</li>' +
+						'				<li>非正当方式的使用邮件，过度耗费邮件系统资源。</li>' +
+						'			</ol>' +
+						'		<li>您还想继续使用并激活帐号吗？</li>' +
+						'			<ol>' +
+						'				<li>部分处于禁用状态的用户会在24小时候后自动解禁，请从web页面登录' +
+						'	您的邮箱重新激活帐号。</li>' +
+						'				<li>其他的用户由于某些原因，不会对您的帐号自动解禁，您可以跟我们的<a href="mailto:'+ kefu +'">邮箱管理员</a>联系！</li>' +
+						'			</ol>' +
+						'		<li>您仍有问题？请查看我们的<a href="'+ help +'">帮助中心</a>，或者拨打下面的客服电话。' +
+						'	全国唯一24小时客户服务  电话：020-83568090(*按4)。</li>' +
+						' </ol>';
+				}else if(sCode == ""){
+					sTitle = "未知错误。";
+				}
+				
+			var bTitle = document.getElementById("bTitle");
+			var dvContent = document.getElementById("dvContent");
+			bTitle.inner
